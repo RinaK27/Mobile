@@ -5,7 +5,7 @@ public class Main {
         int amount = 100; // начальная сумма на счету
         int bonus; // бонус за пополнение
         accountRefill = 1100;
-        if(accountRefill > threshold) {
+        if (accountRefill > threshold) {
             bonus = accountRefill / 100;
         } else {
             bonus = 0;
